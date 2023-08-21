@@ -10,7 +10,12 @@ const HomePage = () => {
     <PostPreview key={post.slug} {...post} />
   ));
   
-  return <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">{postPreviews}</div>;
+  return (
+    <div>
+      <h1 className="pb-5 font-bold text-2xl text-slate-500">نوشته‌ها</h1>
+      <div className="grid grid-cols-1 gap-3">{postPreviews}</div>
+    </div>
+  );
 };
 
 export default HomePage;

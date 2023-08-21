@@ -4,13 +4,18 @@ import getPostMetadata from "./getPostMetadata"
 
 const PostPreview = (props: PostMetadata) => {
     return ( 
-     <div className="border-r-2 border-yellow-500 p-4 rounded-md shadow-md bg-yellow-50">  
-        <Link href={`/posts/${props.slug}`}>
-            <h2 className="text-2xl font-bold text-yellow-600 hover:underline mb-2">{props.title}</h2>
-        </Link>
-        <p className="text-slate-700 pb-2">{props.subtitle}</p>
-        <p className="text-sm text-slate-400">{props.date}</p>
-    </div>
+        <>
+            <div>
+                <div className="my-auto">
+                    <p className="text-xl text-slate-400 align-middle inline-block float-right">{props.date} {props.year} | </p>
+                </div>
+                <div>
+                    <Link href={`/posts/${props.slug}`}>
+                        <h2 className="text-xl pr-2 text-slate-600 hover:text-teal-600 inline-block float-right">{props.title}</h2>
+                    </Link>
+                    </div>
+            </div>
+        </>
     );
 }
 
