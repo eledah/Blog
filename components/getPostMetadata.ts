@@ -1,6 +1,5 @@
 import fs from "fs";
 import matter from "gray-matter";
-import Link from "next/link";
 import { PostMetadata } from "../components/PostMetadata";
 
 
@@ -20,6 +19,7 @@ const getPostMetadata = (): PostMetadata[] => {
             date: matterResult.data.date,
             subtitle: matterResult.data.subtitle,
             year: matterResult.data.year,
+            order: matterResult.data.order,
             slug: fileName.replace(".md", "")
         };
     });

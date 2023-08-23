@@ -1,16 +1,6 @@
-import fs from "fs";
 import Markdown from "markdown-to-jsx";
-import matter from "gray-matter"
 import getPostMetadata from "../../../../components/getPostMetadata";
-import Link from "next/link";
-
-const getPostContent = (slug: string) => {
-    const folder = "posts/"
-    const file = `${folder}${slug}.md`;
-    const content = fs.readFileSync(file, 'utf-8');
-    const matterResult = matter(content)
-    return matterResult;
-}
+import getPostContent from "../../../../components/getPostContent";
 
 export const generateStaticParams = async () => {
     const posts = getPostMetadata();
@@ -34,10 +24,8 @@ const PostPage = (props: any) => {
             <br></br>
 
             <p className="text-center">
-                <a href="/" className="mx-auto text-center">
-                    <button className="border border-teal-600 border-6 bg-yellow-50 p-1 rounded-md text-sm text-teal-500 hover:bg-teal-600 hover:text-white">
-                        بازگشت به صفحهٔ اول
-                    </button>
+                <a href="/" className="border border-teal-600 border-6 p-1 rounded-md text-sm text-teal-500 hover:bg-teal-600 hover:text-white bg-none">
+                        بازگشت
                 </a>
             </p>
         </div>

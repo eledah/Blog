@@ -20,19 +20,17 @@ export default function RootLayout({
   const header = 
   <header>
     <div className='text-center border-b border-slate-200  p-8 my-6'>   
-      <div>
-        <Image className='hover:animate-spin inline' src="/favicon2.png" width={35} height={35}></Image>
-        <Link className="text-2xl font-bold" href="/">
-          <h3 className='hover:text-teal-500 hover:border-teal-500 hover:animate-pulse inline px-5 border-b border-slate-500'>ELEDAH</h3>
-        </Link>
-        <Image className='hover:animate-spin inline' src="/favicon.png" width={35} height={35}></Image>
-      </div>
+      <Image className='hover:animate-spin inline' src="/favicon2.png" width={40} height={40} alt="fav"></Image>
+      <Link className="text-2xl font-bold" href="/">
+        <h3 className='hover:text-teal-500 hover:border-teal-500 hover:animate-pulse inline px-5 border-b border-slate-500'>ELEDAH</h3>
+      </Link>
+      <Image className='hover:animate-spin inline' src="/favicon.png" width={40} height={40} alt="fav"></Image>
     </div>
   </header>
 
   const footer =
   <div className='hover:animate-pulse text-center border-t border-slate-200 mt-6 py-6'>
-    <p><Image className='inline' src="/favicon.png" width={30} height={30}></Image></p>
+    <Image className='inline mx-auto' src="/footer.png" width={40} height={40} alt="fav"></Image>
   </div>
 
   return (
