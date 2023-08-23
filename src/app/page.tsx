@@ -21,7 +21,7 @@ const HomePage = () => {
     <div>
       <div>{bannerPost}</div>
       <p className="text-center pb-5 border-b-2 ">
-          <a href={"/posts/"+ BANNERID} className="mx-auto text-center">
+          <a href={"/posts/blog/"+ BANNERID} className="mx-auto text-center">
               <button className="border border-teal-600 border-6 bg-yellow-50 p-1 rounded-md text-sm text-teal-500 hover:bg-teal-600 hover:text-white">
                ↓ ادامه ↓
               </button>

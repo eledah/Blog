@@ -24,7 +24,7 @@ const PostPage = (props: any) => {
             <br></br>
 
             <p className="text-center">
-                <a href="/" className="border border-teal-600 border-6 p-1 rounded-md text-sm text-teal-500 hover:bg-teal-600 hover:text-white bg-none">
+                <a href="javascript:history.go(-1)" className="border border-teal-600 border-6 p-1 rounded-md text-sm text-teal-500 hover:bg-teal-600 hover:text-white bg-none">
                         بازگشت
                 </a>
             </p>

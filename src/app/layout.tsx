@@ -20,11 +20,11 @@ export default function RootLayout({
   const header = 
   <header>
     <div className='text-center border-b border-slate-200  p-8 my-6'>   
-      <Image className='hover:animate-spin inline' src="/favicon2.png" width={40} height={40} alt="fav"></Image>
+      <Image className='hover:animate-spin inline' src="/blog/favicon2.png" width={40} height={40} alt="fav"></Image>
       <Link className="text-2xl font-bold" href="/">
         <h3 className='hover:text-teal-500 hover:border-teal-500 hover:animate-pulse inline px-5 border-b border-slate-500'>ELEDAH</h3>
       </Link>
-      <Image className='hover:animate-spin inline' src="/favicon.png" width={40} height={40} alt="fav"></Image>
+      <Image className='hover:animate-spin inline' src="/blog/favicon.png" width={40} height={40} alt="fav"></Image>
     </div>
   </header>
 
