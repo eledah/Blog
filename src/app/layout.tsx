@@ -30,7 +30,7 @@ export default function RootLayout({
 
   const footer =
   <div className='hover:animate-pulse text-center border-t border-slate-200 mt-6 py-6'>
-    <Image className='inline mx-auto' src="/footer.png" width={40} height={40} alt="fav"></Image>
+    <Image className='inline mx-auto' src="/blog/footer.png" width={40} height={40} alt="fav"></Image>
   </div>
 
   return (
