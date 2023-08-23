@@ -26,7 +26,7 @@ order: 2
 
 ### جامعهٔ پساصنعتی
 
-![[clarksmodelwithcurrentevents.png]]
+![](../clarksmodelwithcurrentevents.png)
 
 [آلن تورن](https://en.wikipedia.org/wiki/Alain_Touraine)، جامعه‌شناس فرانسوی، اصطلاح جامعهٔ پساصنعتی را در کتابش [The Post-Industrial Society](https://www.iranketab.ir/book/48060-the-post-industrial-society) مطرح می‌کند. حدود ۱۰ سال بعد از نگارش این کتاب، دانیل بل در کتاب [he Coming of Post-Industrial Society: A Venture in Social Forecasting](https://www.amazon.com/Coming-Post-Industrial-Society-Venture-Forecasting/dp/0465097138) مرگ جامعهٔ صنعتی و ظهور جامعه‌ای جدید را پیش‌بینی 
 می‌کند. در جامعهٔ پساصنعتی -که اسامی دیگری مثل عصر اطلاعات یا جامعهٔ شبکه‌ای یا جامعهٔ پسافوردی هم دارد- اولویت با خدمات است. گویا مسألهٔ تولید کالا با ترکیب مکانیک، الکترونیک و شیمی به کلی حل شده است. علم شیمی با معرفی سنتزهای جدیدی مثل پلاستیک هزینه‌های تولید را سرشکن کرد. از سمت دیگر، ترکیب الکتریسیته و مکانیک خط تولیدهایی خودکار و بهینه طراحی کرد. در چنین شرایطی نه کار به شیوهٔ سنتی (پیشه‌وری) صرفهٔ اقتصادی دارد و نه کار در کارخانه‌های تولیدی. چرا که ترکیب علوم یاد شده به کلی جای انسان را پر کرده است.
