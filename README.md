@@ -7,4 +7,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### Formatting
 
-Images must be inside /public/ and displayed as ```![](../clarksmodelwithcurrentevents.png)``` inside .md files.
+- Post order is determined by the 'order' field inside each note's frontmatter. 
+- Images must be inside /public/ and displayed as ```![](../clarksmodelwithcurrentevents.png)``` inside .md files.

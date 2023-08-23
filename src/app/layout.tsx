@@ -36,6 +36,9 @@ export default function RootLayout({
   return (
     // this is the header and the fooder
     <html lang="en" dir='rtl' className='bg-amber-50'>
+      <head>
+        <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+      </head>
       <body className={inter.className}>
         <div className='mx-auto md:max-w-2xl lg:max-w-3xl px-6'>
           {header}
