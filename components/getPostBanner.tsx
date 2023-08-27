@@ -5,7 +5,7 @@ import Link from "next/link";
 let previewWordCount = 30
 
 const banner = (props: any, BANNERID:any) => {
-  const post = getPostContent(BANNERID)
+  const post = getPostContent(BANNERID, "posts")
   let postContent = post.content.replace(/\n/g, ' ').split(' ').slice(0, previewWordCount).join(' ')
   postContent += '...'
 

@@ -19,18 +19,24 @@ export default function RootLayout({
 }) {
   const header = 
   <header>
-    <div className='text-center border-b border-slate-200  p-8 my-6'>   
+    <div className='text-center border-b border-slate-200 py-4 my-6'>   
       <Image className='hover:animate-spin inline' src="/blog/favicon2.png" width={40} height={40} alt="fav"></Image>
       <Link className="text-2xl font-bold" href="/">
         <h3 className='hover:text-teal-500 hover:border-teal-500 hover:animate-pulse inline px-5 border-b border-slate-500'>ELEDAH</h3>
       </Link>
       <Image className='hover:animate-spin inline' src="/blog/favicon.png" width={40} height={40} alt="fav"></Image>
+      <div className='text-center my-2'>
+        <Link className='inline ml-3' href="/">نوشته‌ها</Link>
+        <Link className='inline mr-3' href="/quotes">بریده‌ها</Link>
+      </div>
     </div>
   </header>
 
   const footer =
-  <div className='hover:animate-pulse text-center border-t border-slate-200 mt-6 py-6'>
-    <Image className='inline mx-auto' src="/blog/footer.png" width={40} height={40} alt="fav"></Image>
+  <div className='border-t border-slate-200 mt-6 py-6'>
+    <div className='hover:animate-pulse text-center'>
+      <Image className='inline mx-auto' src="/blog/footer.png" width={40} height={40} alt="fav"></Image>
+    </div>
   </div>
 
   return (

@@ -13,6 +13,10 @@ a {
   transition: color 0.3s ease; /* Add a smooth color transition */
 }
 
+blockquote {
+  padding-top: 5px;
+}
+
 /* Define the hover state */
 a:hover {
   color: rgb(13 148 136 / var(--tw-text-opacity)); /* New link color on hover */
@@ -32,4 +36,69 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 p>img {
   border-radius: 10px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+.english-blockquote {
+  direction: ltr;
+
+  border-left: 2px solid gray !important;
+  border-right: none !important;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  color: gray;   
+}
+
+.english-blockquote::before {
+  content: none;
+}
+
+blockquote .english-footer {
+  margin-top: 1em;
+  color: gray;
+  font-size: 10pt;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+blockquote footer:before {
+  content: '— ';
+}
+
+.farsi-blockquote {
+  direction: rtl;
+  padding-right: 20px;
+  border-right: 2px solid gray !important;
+  border-left: unset;
+  font-family: Sahel;
+  font-size: 16px;
+  /* font-style: italic; */
+  color: gray;
+  /* color: gray; */
+}
+
+.farsi-blockquote::before {
+  content:unset;
+}
+
+blockquote .farsi-footer {
+  margin-top: 1em;
+  color: gray;
+  font-size: 10pt;
+  text-align: right;
+  font-family: Sahel;
+  font-style: normal;
+  color: gray;
+}
+
+blockquote footer:before {
+  content: '— ';
+}
+
+blockquote::before {
+  content: none !important;
 }
