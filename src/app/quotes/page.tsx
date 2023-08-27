@@ -11,7 +11,7 @@ export const generateStaticParams = async () => {
 
 const PostPage = (props: any) => {
     const slug = props.params.slug;
-    const post = getPostContent('Quotes', "quotes")
+    const post = getPostContent('quotes', "quotes")
     return (
         <div dir="rtl">
             <h2 className="font-extrabold text-3xl text-teal-600 text-center border-b-2 border-slate-100 pb-5">~ بریده‌ها ~</h2>
