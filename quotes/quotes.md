@@ -36,3 +36,13 @@
 <blockquote class="english-blockquote">A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.<footer class="english-footer">Gall's Law</footer></blockquote>
 
 <blockquote class="english-blockquote">I've had a sign over my typewriter for 25 years which reads: Don't think. You must never think at the typewriter. You must feel. And then your intellect is always buried in that feeling anyway.<footer class="english-footer">Ray Bradbury - https://twitter.com/bfcarlson/status/1684580105883197442</footer></blockquote>
+
+<blockquote class="farsi-blockquote">
+عقل گوید شش جهت حدست و بیرون راه نیست ///
+عشق گوید راه هست و رفته‌ام من بارها
+<br>
+عقل گوید پا منه کاندر فنا جز خار نیست ///
+عشق گوید عقل را کاندر توست آن خارها
+<footer class="farsi-footer">غزل ۱۳۲ دیوان شمس (https://ganjoor.net/moulavi/shams/ghazalsh/sh132)</footer></blockquote>
+
+
